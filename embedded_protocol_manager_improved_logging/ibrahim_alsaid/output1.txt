@@ -1,0 +1,98 @@
+java -cp build Main.Main config.txt ./logs
+Device added.
+Device added.
+Device added.
+Device added.
+Device added.
+Device added.
+Device added.
+Device added.
+Device added.
+Device added.
+Device added.
+Device added.
+Device added.
+list of ports:
+0 I2C occupied PCA9685 MotorDriver 1 OFF
+1 I2C occupied LCD Display 1 OFF
+2 I2C occupied MPU6050 IMUSensor Sensor 2 OFF
+3 I2C occupied BME280 TempSensor Sensor 4 OFF
+4 SPI occupied SparkFunMD MotorDriver 0 OFF
+5 SPI occupied Wifi WirelessIO 0 OFF
+6 SPI occupied OLED Display 0 OFF
+7 SPI occupied GY951 IMUSensor Sensor 0 OFF
+8 SPI occupied BME280 TempSensor Sensor 5 OFF
+9 OneWire occupied DHT11 TempSensor Sensor 3 OFF
+10 UART occupied Wifi WirelessIO 1 OFF
+11 UART occupied Bluetooth WirelessIO 2 OFF
+12 UART occupied GY951 IMUSensor Sensor 1 OFF
+list of Sensors:
+GY951 0 7 SPI
+GY951 1 12 UART
+MPU6050 2 2 I2C
+DHT11 3 9 OneWire
+BME280 4 3 I2C
+BME280 5 8 SPI
+list of Displays:
+OLED 0 6 SPI
+LCD 1 1 I2C
+list of WirelessIOs:
+Wifi 0 5 SPI
+Wifi 1 10 UART
+Bluetooth 2 11 UART
+list of MotorDrivers:
+SparkFunMD 0 4 SPI
+PCA9685 1 0 I2C
+PCA9685: Turning ON.
+LCD: Turning ON.
+MPU6050: Turning ON.
+BME280: Turning ON.
+SparkFunMD: Turning ON.
+Wifi: Turning ON.
+OLED: Turning ON.
+GY951: Turning ON.
+BME280: Turning ON.
+DHT11: Turning ON.
+Wifi: Turning ON.
+Bluetooth: Turning ON.
+GY951: Turning ON.
+GY951: IMUSensor Sensor: Accel: 1.00, Rot: 0.50
+GY951: IMUSensor Sensor: Accel: 1.00, Rot: 0.50
+MPU6050: IMUSensor Sensor: Accel: 1.00, Rot: 0.50
+DHT11: TempSensor Sensor: Temperature: 24.00C
+BME280: TempSensor Sensor: Temperature: 24.00C
+BME280: TempSensor Sensor: Temperature: 24.00C
+OLED: Printing "hello".
+LCD: Printing "hello".
+Wifi: Received "Some Data".
+Wifi: Received "Some Data".
+Bluetooth: Received "Some Data".
+SparkFunMD: Setting speed to 10.
+PCA9685: Setting speed to 10.
+PCA9685: Turning OFF.
+LCD: Turning OFF.
+MPU6050: Turning OFF.
+BME280: Turning OFF.
+SparkFunMD: Turning OFF.
+Wifi: Turning OFF.
+OLED: Turning OFF.
+GY951: Turning OFF.
+BME280: Turning OFF.
+DHT11: Turning OFF.
+Wifi: Turning OFF.
+Bluetooth: Turning OFF.
+GY951: Turning OFF.
+Device removed.
+Device removed.
+Device removed.
+Device removed.
+Device removed.
+Device removed.
+Device removed.
+Device removed.
+Device removed.
+Device removed.
+Device removed.
+Device removed.
+Device removed.
+Exiting ...

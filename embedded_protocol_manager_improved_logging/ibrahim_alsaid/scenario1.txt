@@ -1,0 +1,71 @@
+addDev SparkFunMD 4 0
+addDev PCA9685 0 1
+addDev Wifi 5 0
+addDev Wifi 10 1
+addDev Bluetooth 11 2
+addDev OLED 6 0
+addDev LCD 1 1
+addDev GY951 7 0
+addDev GY951 12 1
+addDev MPU6050 2 2
+addDev DHT11 9 3
+addDev BME280 3 4
+addDev BME280 8 5
+list ports
+list Sensor
+list Display
+list WirelessIO
+list MotorDriver
+turnON 0
+turnON 1
+turnON 2
+turnON 3
+turnON 4
+turnON 5
+turnON 6
+turnON 7
+turnON 8
+turnON 9
+turnON 10
+turnON 11
+turnON 12
+readSensor 0
+readSensor 1
+readSensor 2
+readSensor 3
+readSensor 4
+readSensor 5
+printDisplay 0 hello
+printDisplay 1 hello
+readWireless 0
+readWireless 1
+readWireless 2
+setMotorSpeed 0 10
+setMotorSpeed 1 10
+turnOFF 0
+turnOFF 1
+turnOFF 2
+turnOFF 3
+turnOFF 4
+turnOFF 5
+turnOFF 6
+turnOFF 7
+turnOFF 8
+turnOFF 9
+turnOFF 10
+turnOFF 11
+turnOFF 12
+rmDev 0
+rmDev 1
+rmDev 2
+rmDev 3
+rmDev 4
+rmDev 5
+rmDev 6
+rmDev 7
+rmDev 8
+rmDev 9
+rmDev 10
+rmDev 11
+rmDev 12
+exit
